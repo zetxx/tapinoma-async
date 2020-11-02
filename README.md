@@ -5,3 +5,6 @@
 ```bash
 SUBSYSTEM=="usb", ATTR{idVendor}=="0fcf", ATTR{idProduct}=="1008", MODE="0666"
 ```
+
+
+### credits: https://github.com/loicguillois/tapinoma 
