@@ -1,10 +1,16 @@
 {
     "name": "tapinoma-async",
-    "version": "0.0.1",
     "description": "A complete node module for the ANT+ protocol",
     "main": "src/index.js",
+    "dependencies": {
+      "usb": "^1.6.3"
+    },
+    "devDependencies": {
+      "tap": "*",
+      "semantic-release": "^17.0.1"
+    },
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
     },
     "repository": {
       "type": "git",
@@ -15,9 +21,9 @@
       "ANT+",
       "Garmin"
     ],
-    "author": "Elin Angelov",
-    "license": "GPL",
-    "dependencies": {
-      "usb": "^1.6.3"
-    }
+    "author": {
+      "email": "zetxx@belogradchik.biz",
+      "name": "Elin Angelov"
+    },
+    "license": "GPL"
   }
