@@ -1,29 +1,31 @@
 {
-    "name": "tapinoma-async",
-    "description": "A complete node module for the ANT+ protocol",
-    "main": "src/index.js",
-    "dependencies": {
-      "usb": "^1.6.3"
-    },
-    "devDependencies": {
-      "tap": "*",
-      "semantic-release": "^17.0.1"
-    },
-    "scripts": {
-      "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:zetxx/tapinoma-async.git"
-    },
-    "keywords": [
-      "ANT",
-      "ANT+",
-      "Garmin"
-    ],
-    "author": {
-      "email": "zetxx@belogradchik.biz",
-      "name": "Elin Angelov"
-    },
-    "license": "GPL"
-  }
+  "name": "tapinoma-async",
+  "description": "A complete node module for the ANT+ protocol",
+  "main": "src/index.js",
+  "dependencies": {
+    "pino": "^6.7.0",
+    "pino-pretty": "^4.3.0",
+    "usb": "^1.6.3"
+  },
+  "devDependencies": {
+    "tap": "*",
+    "semantic-release": "^17.0.1"
+  },
+  "scripts": {
+    "unit-test": "./node_modules/tap/bin/run.js --no-cov ./tests/unit/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zetxx/tapinoma-async.git"
+  },
+  "keywords": [
+    "ANT",
+    "ANT+",
+    "Garmin"
+  ],
+  "author": {
+    "email": "zetxx@belogradchik.biz",
+    "name": "Elin Angelov"
+  },
+  "license": "GPL"
+}
